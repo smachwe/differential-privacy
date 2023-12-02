@@ -1,0 +1,4 @@
+# Ingore files
+.idea
+.DS_Store
+*.csv

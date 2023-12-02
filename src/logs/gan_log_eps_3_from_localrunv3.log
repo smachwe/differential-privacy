@@ -1,0 +1,624 @@
+#PATEGAN 3.0 from local run v3
+Spent 1.0 epsilon on preprocessor, leaving 2.0 for training
+using loss cross_entropy and regularization dragan
+eps: 0.189173 	 G: 3.833977 	 D: 1.176270
+eps: 0.620118 	 G: 4.580109 	 D: 1.494553
+eps: 0.879937 	 G: 4.363780 	 D: 1.491276
+eps: 1.080481 	 G: 4.365584 	 D: 1.387190
+eps: 1.250236 	 G: 4.306898 	 D: 1.556150
+eps: 1.400618 	 G: 4.220931 	 D: 1.423922
+eps: 1.536692 	 G: 3.991099 	 D: 1.396671
+eps: 1.662492 	 G: 3.730719 	 D: 1.443460
+eps: 1.779878 	 G: 3.633538 	 D: 1.274753
+eps: 1.890824 	 G: 3.709408 	 D: 1.114590
+eps: 1.995648 	 G: 3.465220 	 D: 1.208962
+(300000, 12)
+
+#DP-PATECTGAN from local run v3
+Spent 1.0 epsilon on preprocessor, leaving 2.0 for training
+Epoch 1, Loss G: 0.6807, Loss D: 1.3875
+epsilon is 0.22229275388042935, alpha is 63.0
+Epoch 2, Loss G: 0.6252, Loss D: 1.3889
+epsilon is 0.22659597736511938, alpha is 63.0
+Epoch 3, Loss G: 0.5757, Loss D: 1.4067
+epsilon is 0.23089920084980944, alpha is 63.0
+Epoch 4, Loss G: 0.5252, Loss D: 1.4238
+epsilon is 0.2352024243344995, alpha is 63.0
+Epoch 5, Loss G: 0.4882, Loss D: 1.4491
+epsilon is 0.23950564781918954, alpha is 63.0
+Epoch 6, Loss G: 0.4522, Loss D: 1.4682
+epsilon is 0.24380887130387957, alpha is 63.0
+Epoch 7, Loss G: 0.4238, Loss D: 1.4864
+epsilon is 0.2481120947885696, alpha is 63.0
+Epoch 8, Loss G: 0.3953, Loss D: 1.5174
+epsilon is 0.2524153182732597, alpha is 63.0
+Epoch 9, Loss G: 0.3731, Loss D: 1.5511
+epsilon is 0.2567185417579497, alpha is 63.0
+Epoch 10, Loss G: 0.3542, Loss D: 1.5783
+epsilon is 0.26102176524263976, alpha is 63.0
+Epoch 11, Loss G: 0.3559, Loss D: 1.5879
+epsilon is 0.26532498872732985, alpha is 63.0
+Epoch 12, Loss G: 0.3648, Loss D: 1.5725
+epsilon is 0.2696282122120199, alpha is 63.0
+Epoch 13, Loss G: 0.3430, Loss D: 1.5913
+epsilon is 0.2739314356967099, alpha is 63.0
+Epoch 14, Loss G: 0.3460, Loss D: 1.5880
+epsilon is 0.27823465918139995, alpha is 63.0
+Epoch 15, Loss G: 0.3402, Loss D: 1.6005
+epsilon is 0.28253788266609, alpha is 63.0
+Epoch 16, Loss G: 0.3404, Loss D: 1.6055
+epsilon is 0.28684110615078007, alpha is 63.0
+Epoch 17, Loss G: 0.3201, Loss D: 1.6411
+epsilon is 0.2911443296354701, alpha is 63.0
+Epoch 18, Loss G: 0.3104, Loss D: 1.6569
+epsilon is 0.29544755312016013, alpha is 63.0
+Epoch 19, Loss G: 0.2939, Loss D: 1.6927
+epsilon is 0.2997507766048502, alpha is 63.0
+Epoch 20, Loss G: 0.2826, Loss D: 1.7244
+epsilon is 0.30405400008954026, alpha is 63.0
+Epoch 21, Loss G: 0.2832, Loss D: 1.7182
+epsilon is 0.3083572235742303, alpha is 63.0
+Epoch 22, Loss G: 0.2807, Loss D: 1.7235
+epsilon is 0.3126604470589203, alpha is 63.0
+Epoch 23, Loss G: 0.2602, Loss D: 1.7734
+epsilon is 0.31696367054361035, alpha is 63.0
+Epoch 24, Loss G: 0.2493, Loss D: 1.8138
+epsilon is 0.32126689402830044, alpha is 63.0
+Epoch 25, Loss G: 0.2495, Loss D: 1.8116
+epsilon is 0.3255701175129905, alpha is 63.0
+Epoch 26, Loss G: 0.2405, Loss D: 1.8163
+epsilon is 0.3298733409976805, alpha is 63.0
+Epoch 27, Loss G: 0.2355, Loss D: 1.8341
+epsilon is 0.3341765644823706, alpha is 63.0
+Epoch 28, Loss G: 0.2324, Loss D: 1.8404
+epsilon is 0.33847978796706063, alpha is 63.0
+Epoch 29, Loss G: 0.2225, Loss D: 1.8766
+epsilon is 0.34278301145175066, alpha is 63.0
+Epoch 30, Loss G: 0.2086, Loss D: 1.9468
+epsilon is 0.3470862349364407, alpha is 63.0
+Epoch 31, Loss G: 0.2098, Loss D: 1.9140
+epsilon is 0.35138945842113073, alpha is 63.0
+Epoch 32, Loss G: 0.2101, Loss D: 1.9090
+epsilon is 0.35569268190582076, alpha is 63.0
+Epoch 33, Loss G: 0.2334, Loss D: 1.8286
+epsilon is 0.35999590539051085, alpha is 63.0
+Epoch 34, Loss G: 0.2165, Loss D: 1.8845
+epsilon is 0.3642991288752009, alpha is 63.0
+Epoch 35, Loss G: 0.2284, Loss D: 1.8675
+epsilon is 0.368602352359891, alpha is 63.0
+Epoch 36, Loss G: 0.2237, Loss D: 1.8935
+epsilon is 0.372905575844581, alpha is 63.0
+Epoch 37, Loss G: 0.2223, Loss D: 1.8951
+epsilon is 0.37720879932927104, alpha is 63.0
+Epoch 38, Loss G: 0.2285, Loss D: 1.8817
+epsilon is 0.38151202281396107, alpha is 63.0
+Epoch 39, Loss G: 0.2256, Loss D: 1.8593
+epsilon is 0.3858152462986511, alpha is 63.0
+Epoch 40, Loss G: 0.2321, Loss D: 1.8758
+epsilon is 0.39011846978334114, alpha is 63.0
+Epoch 41, Loss G: 0.2478, Loss D: 1.8107
+epsilon is 0.3944216932680312, alpha is 63.0
+Epoch 42, Loss G: 0.2559, Loss D: 1.7549
+epsilon is 0.39872491675272126, alpha is 63.0
+Epoch 43, Loss G: 0.2666, Loss D: 1.7409
+epsilon is 0.40302814023741135, alpha is 63.0
+Epoch 44, Loss G: 0.2837, Loss D: 1.7560
+epsilon is 0.4073313637221014, alpha is 63.0
+Epoch 45, Loss G: 0.2859, Loss D: 1.7245
+epsilon is 0.4116345872067914, alpha is 63.0
+Epoch 46, Loss G: 0.3002, Loss D: 1.6914
+epsilon is 0.41593781069148145, alpha is 63.0
+Epoch 47, Loss G: 0.3107, Loss D: 1.6749
+epsilon is 0.4202410341761715, alpha is 63.0
+Epoch 48, Loss G: 0.2977, Loss D: 1.6858
+epsilon is 0.4245442576608615, alpha is 63.0
+Epoch 49, Loss G: 0.2945, Loss D: 1.7235
+epsilon is 0.4288474811455516, alpha is 63.0
+Epoch 50, Loss G: 0.3319, Loss D: 1.6553
+epsilon is 0.43315070463024163, alpha is 63.0
+Epoch 51, Loss G: 0.3433, Loss D: 1.6502
+epsilon is 0.4374539281149317, alpha is 63.0
+Epoch 52, Loss G: 0.3591, Loss D: 1.6411
+epsilon is 0.44175715159962176, alpha is 63.0
+Epoch 53, Loss G: 0.3726, Loss D: 1.5835
+epsilon is 0.4460603750843118, alpha is 63.0
+Epoch 54, Loss G: 0.3585, Loss D: 1.6553
+epsilon is 0.4503635985690018, alpha is 63.0
+Epoch 55, Loss G: 0.3568, Loss D: 1.6064
+epsilon is 0.45466682205369185, alpha is 63.0
+Epoch 56, Loss G: 0.3902, Loss D: 1.5950
+epsilon is 0.4589700455383819, alpha is 63.0
+Epoch 57, Loss G: 0.4229, Loss D: 1.5623
+epsilon is 0.463273269023072, alpha is 63.0
+Epoch 58, Loss G: 0.4328, Loss D: 1.5741
+epsilon is 0.46757493417547713, alpha is 62.0
+Epoch 59, Loss G: 0.4496, Loss D: 1.5151
+epsilon is 0.471809558999311, alpha is 62.0
+Epoch 60, Loss G: 0.4524, Loss D: 1.5475
+epsilon is 0.4760406829367817, alpha is 61.0
+Epoch 61, Loss G: 0.4922, Loss D: 1.5018
+epsilon is 0.48020671862237363, alpha is 61.0
+Epoch 62, Loss G: 0.4941, Loss D: 1.4830
+epsilon is 0.48437275430796556, alpha is 61.0
+Epoch 63, Loss G: 0.5292, Loss D: 1.5459
+epsilon is 0.4884718030798837, alpha is 60.0
+Epoch 64, Loss G: 0.5597, Loss D: 1.4719
+epsilon is 0.492569259147173, alpha is 60.0
+Epoch 65, Loss G: 0.6276, Loss D: 1.4460
+epsilon is 0.49661235790432656, alpha is 59.0
+Epoch 66, Loss G: 0.6873, Loss D: 1.4238
+epsilon is 0.5006412438705815, alpha is 59.0
+Epoch 67, Loss G: 0.7537, Loss D: 1.4251
+epsilon is 0.5046364625296214, alpha is 58.0
+Epoch 68, Loss G: 0.7992, Loss D: 1.4235
+epsilon is 0.5085967879094336, alpha is 58.0
+Epoch 69, Loss G: 0.8195, Loss D: 1.4422
+epsilon is 0.5125527785646175, alpha is 57.0
+Epoch 70, Loss G: 0.7092, Loss D: 1.5165
+epsilon is 0.5164445528699121, alpha is 57.0
+Epoch 71, Loss G: 0.8548, Loss D: 1.5142
+epsilon is 0.5203363271752067, alpha is 57.0
+Epoch 72, Loss G: 0.9561, Loss D: 1.4827
+epsilon is 0.5241938361252632, alpha is 56.0
+Epoch 73, Loss G: 0.9939, Loss D: 1.5368
+epsilon is 0.5280170688652924, alpha is 56.0
+Epoch 74, Loss G: 1.1461, Loss D: 1.5547
+epsilon is 0.5318403016053218, alpha is 56.0
+Epoch 75, Loss G: 1.2103, Loss D: 1.6193
+epsilon is 0.5356093311075393, alpha is 55.0
+Epoch 76, Loss G: 1.3261, Loss D: 1.6942
+epsilon is 0.5393640317888867, alpha is 55.0
+Epoch 77, Loss G: 1.4868, Loss D: 1.7380
+epsilon is 0.5431187324702343, alpha is 55.0
+Epoch 78, Loss G: 1.4216, Loss D: 1.7526
+epsilon is 0.5468100465816343, alpha is 54.0
+Epoch 79, Loss G: 1.4150, Loss D: 1.7370
+epsilon is 0.5504962247082155, alpha is 54.0
+Epoch 80, Loss G: 1.5390, Loss D: 1.7668
+epsilon is 0.5541824028347966, alpha is 54.0
+Epoch 81, Loss G: 1.5258, Loss D: 1.7696
+epsilon is 0.5578076015842456, alpha is 53.0
+Epoch 82, Loss G: 1.6098, Loss D: 1.8635
+epsilon is 0.5614252666573109, alpha is 53.0
+Epoch 83, Loss G: 1.5592, Loss D: 1.8187
+epsilon is 0.5650429317303761, alpha is 53.0
+Epoch 84, Loss G: 1.5418, Loss D: 1.8339
+epsilon is 0.5686145341063724, alpha is 52.0
+Epoch 85, Loss G: 1.6253, Loss D: 1.8424
+epsilon is 0.5721636956245063, alpha is 52.0
+Epoch 86, Loss G: 1.5719, Loss D: 1.7960
+epsilon is 0.5757128571426403, alpha is 52.0
+Epoch 87, Loss G: 1.6511, Loss D: 1.8567
+epsilon is 0.5792443941429795, alpha is 51.0
+Epoch 88, Loss G: 1.7286, Loss D: 1.8798
+epsilon is 0.5827250616021015, alpha is 51.0
+Epoch 89, Loss G: 1.7249, Loss D: 1.8965
+epsilon is 0.5862057290612235, alpha is 51.0
+Epoch 90, Loss G: 1.7299, Loss D: 1.8017
+epsilon is 0.5896863965203456, alpha is 51.0
+Epoch 91, Loss G: 1.6513, Loss D: 1.8831
+epsilon is 0.5931240311473958, alpha is 50.0
+Epoch 92, Loss G: 1.7179, Loss D: 1.8777
+epsilon is 0.5965362140407634, alpha is 50.0
+Epoch 93, Loss G: 1.6841, Loss D: 1.9404
+epsilon is 0.599948396934131, alpha is 50.0
+Epoch 94, Loss G: 1.6784, Loss D: 1.8988
+epsilon is 0.6033605798274988, alpha is 50.0
+Epoch 95, Loss G: 1.7384, Loss D: 1.9552
+epsilon is 0.60672021296611, alpha is 49.0
+Epoch 96, Loss G: 1.7652, Loss D: 1.9290
+epsilon is 0.6100639207843188, alpha is 49.0
+Epoch 97, Loss G: 1.7116, Loss D: 2.0161
+epsilon is 0.6134076286025274, alpha is 49.0
+Epoch 98, Loss G: 1.8503, Loss D: 1.9224
+epsilon is 0.6167513364207362, alpha is 49.0
+Epoch 99, Loss G: 1.8042, Loss D: 2.0537
+epsilon is 0.6200502362376977, alpha is 48.0
+Epoch 100, Loss G: 1.8824, Loss D: 1.8695
+epsilon is 0.6233254784686834, alpha is 48.0
+Epoch 101, Loss G: 1.7362, Loss D: 1.8693
+epsilon is 0.6266007206996692, alpha is 48.0
+Epoch 102, Loss G: 1.7391, Loss D: 1.8853
+epsilon is 0.6298759629306548, alpha is 48.0
+Epoch 103, Loss G: 1.8235, Loss D: 1.8765
+epsilon is 0.6331329153482786, alpha is 47.0
+Epoch 104, Loss G: 1.8271, Loss D: 2.0527
+epsilon is 0.6363397014773149, alpha is 47.0
+Epoch 105, Loss G: 1.8982, Loss D: 2.0523
+epsilon is 0.639546487606351, alpha is 47.0
+Epoch 106, Loss G: 1.9801, Loss D: 2.1050
+epsilon is 0.6427532737353872, alpha is 47.0
+Epoch 107, Loss G: 1.8454, Loss D: 2.0017
+epsilon is 0.6459600598644233, alpha is 47.0
+Epoch 108, Loss G: 1.8989, Loss D: 2.0588
+epsilon is 0.6491270926856861, alpha is 46.0
+Epoch 109, Loss G: 1.8689, Loss D: 1.9240
+epsilon is 0.6522654321953917, alpha is 46.0
+Epoch 110, Loss G: 1.9882, Loss D: 2.0535
+epsilon is 0.6554037717050973, alpha is 46.0
+Epoch 111, Loss G: 1.9438, Loss D: 2.0279
+epsilon is 0.6585421112148029, alpha is 46.0
+Epoch 112, Loss G: 1.9077, Loss D: 2.0063
+epsilon is 0.6616804507245084, alpha is 46.0
+Epoch 113, Loss G: 2.0183, Loss D: 2.0461
+epsilon is 0.6647799400954745, alpha is 45.0
+Epoch 114, Loss G: 1.9993, Loss D: 2.0737
+epsilon is 0.6678498424658081, alpha is 45.0
+Epoch 115, Loss G: 2.0478, Loss D: 2.0736
+epsilon is 0.6709197448361418, alpha is 45.0
+Epoch 116, Loss G: 1.9879, Loss D: 2.0852
+epsilon is 0.6739896472064755, alpha is 45.0
+Epoch 117, Loss G: 2.0027, Loss D: 2.0466
+epsilon is 0.6770595495768091, alpha is 45.0
+Epoch 118, Loss G: 2.0033, Loss D: 2.0793
+epsilon is 0.6801159760504322, alpha is 44.0
+Epoch 119, Loss G: 1.9690, Loss D: 2.0331
+epsilon is 0.6831174507586991, alpha is 44.0
+Epoch 120, Loss G: 1.9371, Loss D: 2.0055
+epsilon is 0.6861189254669661, alpha is 44.0
+Epoch 121, Loss G: 2.0277, Loss D: 2.1006
+epsilon is 0.6891204001752331, alpha is 44.0
+Epoch 122, Loss G: 2.0368, Loss D: 2.1066
+epsilon is 0.6921218748835002, alpha is 44.0
+Epoch 123, Loss G: 2.0236, Loss D: 2.0728
+epsilon is 0.6951233495917671, alpha is 44.0
+Epoch 124, Loss G: 2.0078, Loss D: 2.0561
+epsilon is 0.6980951335771732, alpha is 43.0
+Epoch 125, Loss G: 2.0310, Loss D: 2.0590
+epsilon is 0.7010281900980221, alpha is 43.0
+Epoch 126, Loss G: 2.0370, Loss D: 2.0603
+epsilon is 0.7039612466188709, alpha is 43.0
+Epoch 127, Loss G: 2.0667, Loss D: 2.0921
+epsilon is 0.7068943031397199, alpha is 43.0
+Epoch 128, Loss G: 2.0264, Loss D: 2.0427
+epsilon is 0.7098273596605689, alpha is 43.0
+Epoch 129, Loss G: 2.0552, Loss D: 2.0987
+epsilon is 0.7127604161814177, alpha is 43.0
+Epoch 130, Loss G: 2.1039, Loss D: 2.0854
+epsilon is 0.7156770643984458, alpha is 42.0
+Epoch 131, Loss G: 2.0513, Loss D: 2.1122
+epsilon is 0.7185417122038729, alpha is 42.0
+Epoch 132, Loss G: 2.1276, Loss D: 2.1127
+epsilon is 0.7214063600092998, alpha is 42.0
+Epoch 133, Loss G: 2.0334, Loss D: 2.0852
+epsilon is 0.7242710078147269, alpha is 42.0
+Epoch 134, Loss G: 2.1124, Loss D: 2.1227
+epsilon is 0.7271356556201539, alpha is 42.0
+Epoch 135, Loss G: 2.0407, Loss D: 2.2286
+epsilon is 0.730000303425581, alpha is 42.0
+Epoch 136, Loss G: 2.1039, Loss D: 2.1347
+epsilon is 0.732864951231008, alpha is 42.0
+Epoch 137, Loss G: 2.1255, Loss D: 2.0836
+epsilon is 0.7356905555749311, alpha is 41.0
+Epoch 138, Loss G: 2.1089, Loss D: 2.0928
+epsilon is 0.7384868041342803, alpha is 41.0
+Epoch 139, Loss G: 2.0366, Loss D: 2.0495
+epsilon is 0.7412830526936294, alpha is 41.0
+Epoch 140, Loss G: 2.0347, Loss D: 2.1305
+epsilon is 0.7440793012529784, alpha is 41.0
+Epoch 141, Loss G: 2.0545, Loss D: 2.0914
+epsilon is 0.7468755498123274, alpha is 41.0
+Epoch 142, Loss G: 2.0716, Loss D: 2.0890
+epsilon is 0.7496717983716765, alpha is 41.0
+Epoch 143, Loss G: 2.0857, Loss D: 2.1346
+epsilon is 0.7524680469310255, alpha is 41.0
+Epoch 144, Loss G: 2.0565, Loss D: 2.1255
+epsilon is 0.7552384892513992, alpha is 40.0
+Epoch 145, Loss G: 2.1587, Loss D: 2.0816
+epsilon is 0.7579663480313614, alpha is 40.0
+Epoch 146, Loss G: 2.1554, Loss D: 2.1531
+epsilon is 0.7606942068113234, alpha is 40.0
+Epoch 147, Loss G: 2.0298, Loss D: 2.0854
+epsilon is 0.7634220655912856, alpha is 40.0
+Epoch 148, Loss G: 2.0394, Loss D: 2.1178
+epsilon is 0.7661499243712475, alpha is 40.0
+Epoch 149, Loss G: 2.0646, Loss D: 2.1078
+epsilon is 0.7688777831512095, alpha is 40.0
+Epoch 150, Loss G: 2.0314, Loss D: 2.0464
+epsilon is 0.7716056419311716, alpha is 40.0
+Epoch 151, Loss G: 2.1531, Loss D: 2.0589
+epsilon is 0.7743335007111336, alpha is 40.0
+Epoch 152, Loss G: 2.0801, Loss D: 2.1105
+epsilon is 0.777020103446886, alpha is 39.0
+Epoch 153, Loss G: 2.0866, Loss D: 2.0554
+epsilon is 0.7796795819115039, alpha is 39.0
+Epoch 154, Loss G: 2.0355, Loss D: 2.1561
+epsilon is 0.7823390603761218, alpha is 39.0
+Epoch 155, Loss G: 2.0637, Loss D: 2.1334
+epsilon is 0.7849985388407397, alpha is 39.0
+Epoch 156, Loss G: 2.1248, Loss D: 2.0535
+epsilon is 0.7876580173053577, alpha is 39.0
+Epoch 157, Loss G: 2.0537, Loss D: 2.0582
+epsilon is 0.7903174957699757, alpha is 39.0
+Epoch 158, Loss G: 2.0591, Loss D: 2.1621
+epsilon is 0.7929769742345936, alpha is 39.0
+Epoch 159, Loss G: 2.0783, Loss D: 2.0927
+epsilon is 0.7956364526992115, alpha is 39.0
+Epoch 160, Loss G: 2.1229, Loss D: 2.0866
+epsilon is 0.7982832811417098, alpha is 38.0
+Epoch 161, Loss G: 2.1046, Loss D: 2.2060
+epsilon is 0.8008743887523764, alpha is 38.0
+Epoch 162, Loss G: 2.0123, Loss D: 2.0843
+epsilon is 0.8034654963630431, alpha is 38.0
+Epoch 163, Loss G: 2.0635, Loss D: 2.1115
+epsilon is 0.8060566039737098, alpha is 38.0
+Epoch 164, Loss G: 2.1897, Loss D: 2.1424
+epsilon is 0.8086477115843764, alpha is 38.0
+Epoch 165, Loss G: 2.1365, Loss D: 2.1650
+epsilon is 0.8112388191950431, alpha is 38.0
+Epoch 166, Loss G: 2.0152, Loss D: 2.0548
+epsilon is 0.8138299268057099, alpha is 38.0
+Epoch 167, Loss G: 2.0492, Loss D: 2.1241
+epsilon is 0.8164210344163765, alpha is 38.0
+Epoch 168, Loss G: 2.1437, Loss D: 2.1983
+epsilon is 0.8190121420270432, alpha is 38.0
+Epoch 169, Loss G: 2.0446, Loss D: 2.0656
+epsilon is 0.821599854393147, alpha is 37.0
+Epoch 170, Loss G: 2.0258, Loss D: 2.0649
+epsilon is 0.8241226006086086, alpha is 37.0
+Epoch 171, Loss G: 2.1045, Loss D: 2.1103
+epsilon is 0.8266453468240703, alpha is 37.0
+Epoch 172, Loss G: 2.0549, Loss D: 2.0540
+epsilon is 0.829168093039532, alpha is 37.0
+Epoch 173, Loss G: 2.0917, Loss D: 2.0869
+epsilon is 0.8316908392549937, alpha is 37.0
+Epoch 174, Loss G: 2.0574, Loss D: 1.9976
+epsilon is 0.8342135854704553, alpha is 37.0
+Epoch 175, Loss G: 2.1307, Loss D: 2.0763
+epsilon is 0.8367363316859169, alpha is 37.0
+Epoch 176, Loss G: 2.0900, Loss D: 2.0938
+epsilon is 0.8392590779013787, alpha is 37.0
+Epoch 177, Loss G: 2.0593, Loss D: 1.9926
+epsilon is 0.8417818241168402, alpha is 37.0
+Epoch 178, Loss G: 1.9996, Loss D: 2.0022
+epsilon is 0.844304570332302, alpha is 37.0
+Epoch 179, Loss G: 2.0149, Loss D: 2.0331
+epsilon is 0.8468195239960136, alpha is 36.0
+Epoch 180, Loss G: 2.1157, Loss D: 2.1302
+epsilon is 0.8492739182723689, alpha is 36.0
+Epoch 181, Loss G: 2.1379, Loss D: 2.0911
+epsilon is 0.8517283125487242, alpha is 36.0
+Epoch 182, Loss G: 2.0662, Loss D: 2.1029
+epsilon is 0.8541827068250795, alpha is 36.0
+Epoch 183, Loss G: 2.0285, Loss D: 2.0535
+epsilon is 0.8566371011014348, alpha is 36.0
+Epoch 184, Loss G: 2.0765, Loss D: 2.1410
+epsilon is 0.8590914953777901, alpha is 36.0
+Epoch 185, Loss G: 2.0719, Loss D: 2.0242
+epsilon is 0.8615458896541454, alpha is 36.0
+Epoch 186, Loss G: 2.1793, Loss D: 2.1355
+epsilon is 0.8640002839305007, alpha is 36.0
+Epoch 187, Loss G: 2.0402, Loss D: 2.0738
+epsilon is 0.8664546782068558, alpha is 36.0
+Epoch 188, Loss G: 2.0869, Loss D: 2.0078
+epsilon is 0.8689090724832111, alpha is 36.0
+Epoch 189, Loss G: 2.0112, Loss D: 2.0731
+epsilon is 0.8713634667595664, alpha is 36.0
+Epoch 190, Loss G: 2.1054, Loss D: 2.1010
+epsilon is 0.8737985624215144, alpha is 35.0
+Epoch 191, Loss G: 2.1151, Loss D: 2.1200
+epsilon is 0.8761846142122169, alpha is 35.0
+Epoch 192, Loss G: 2.0988, Loss D: 2.1004
+epsilon is 0.8785706660029194, alpha is 35.0
+Epoch 193, Loss G: 2.0396, Loss D: 2.1729
+epsilon is 0.8809567177936218, alpha is 35.0
+Epoch 194, Loss G: 2.0983, Loss D: 2.0869
+epsilon is 0.8833427695843242, alpha is 35.0
+Epoch 195, Loss G: 2.0813, Loss D: 2.1063
+epsilon is 0.8857288213750267, alpha is 35.0
+Epoch 196, Loss G: 2.1402, Loss D: 2.0918
+epsilon is 0.8881148731657292, alpha is 35.0
+Epoch 197, Loss G: 2.0238, Loss D: 2.0401
+epsilon is 0.8905009249564316, alpha is 35.0
+Epoch 198, Loss G: 2.0254, Loss D: 2.0539
+epsilon is 0.892886976747134, alpha is 35.0
+Epoch 199, Loss G: 2.1098, Loss D: 2.0673
+epsilon is 0.8952730285378366, alpha is 35.0
+Epoch 200, Loss G: 2.0230, Loss D: 2.0235
+epsilon is 0.897659080328539, alpha is 35.0
+Epoch 201, Loss G: 2.0332, Loss D: 2.1144
+epsilon is 0.9000451321192414, alpha is 35.0
+Epoch 202, Loss G: 2.1027, Loss D: 2.1045
+epsilon is 0.9024008130157437, alpha is 34.0
+Epoch 203, Loss G: 2.1294, Loss D: 2.0707
+epsilon is 0.9047185317716033, alpha is 34.0
+Epoch 204, Loss G: 2.0905, Loss D: 2.0782
+epsilon is 0.9070362505274632, alpha is 34.0
+Epoch 205, Loss G: 2.0156, Loss D: 2.0347
+epsilon is 0.9093539692833229, alpha is 34.0
+Epoch 206, Loss G: 2.0471, Loss D: 2.0954
+epsilon is 0.9116716880391826, alpha is 34.0
+Epoch 207, Loss G: 2.0773, Loss D: 2.1336
+epsilon is 0.9139894067950424, alpha is 34.0
+Epoch 208, Loss G: 2.1122, Loss D: 2.1680
+epsilon is 0.9163071255509021, alpha is 34.0
+Epoch 209, Loss G: 2.0227, Loss D: 2.0405
+epsilon is 0.9186248443067618, alpha is 34.0
+Epoch 210, Loss G: 1.9971, Loss D: 2.0237
+epsilon is 0.9209425630626216, alpha is 34.0
+Epoch 211, Loss G: 2.0576, Loss D: 2.0142
+epsilon is 0.9232602818184814, alpha is 34.0
+Epoch 212, Loss G: 2.1108, Loss D: 2.0587
+epsilon is 0.925578000574341, alpha is 34.0
+Epoch 213, Loss G: 2.0307, Loss D: 2.0406
+epsilon is 0.9278957193302009, alpha is 34.0
+Epoch 214, Loss G: 2.1294, Loss D: 2.0695
+epsilon is 0.9302134380860605, alpha is 34.0
+Epoch 215, Loss G: 2.1911, Loss D: 2.0814
+epsilon is 0.932498878444321, alpha is 33.0
+Epoch 216, Loss G: 2.0872, Loss D: 2.0694
+epsilon is 0.9347482736135038, alpha is 33.0
+Epoch 217, Loss G: 1.9445, Loss D: 2.0061
+epsilon is 0.9369976687826864, alpha is 33.0
+Epoch 218, Loss G: 2.0562, Loss D: 2.0546
+epsilon is 0.9392470639518693, alpha is 33.0
+Epoch 219, Loss G: 2.0318, Loss D: 2.0533
+epsilon is 0.941496459121052, alpha is 33.0
+Epoch 220, Loss G: 2.0876, Loss D: 2.0748
+epsilon is 0.9437458542902347, alpha is 33.0
+Epoch 221, Loss G: 2.0702, Loss D: 2.0657
+epsilon is 0.9459952494594175, alpha is 33.0
+Epoch 222, Loss G: 2.0905, Loss D: 2.1045
+epsilon is 0.9482446446286001, alpha is 33.0
+Epoch 223, Loss G: 2.1034, Loss D: 2.0514
+epsilon is 0.9504940397977829, alpha is 33.0
+Epoch 224, Loss G: 2.0545, Loss D: 2.0252
+epsilon is 0.9527434349669657, alpha is 33.0
+Epoch 225, Loss G: 2.0430, Loss D: 2.0316
+epsilon is 0.9549928301361483, alpha is 33.0
+Epoch 226, Loss G: 2.0724, Loss D: 2.0007
+epsilon is 0.9572422253053311, alpha is 33.0
+Epoch 227, Loss G: 2.1366, Loss D: 2.1427
+epsilon is 0.9594916204745139, alpha is 33.0
+Epoch 228, Loss G: 2.0468, Loss D: 2.0547
+epsilon is 0.9617410156436965, alpha is 33.0
+Epoch 229, Loss G: 2.0955, Loss D: 2.0189
+epsilon is 0.9639755414846884, alpha is 32.0
+Epoch 230, Loss G: 2.0685, Loss D: 2.0509
+epsilon is 0.9661566225127189, alpha is 32.0
+Epoch 231, Loss G: 2.1297, Loss D: 2.0645
+epsilon is 0.9683377035407494, alpha is 32.0
+Epoch 232, Loss G: 2.1378, Loss D: 2.0873
+epsilon is 0.9705187845687799, alpha is 32.0
+Epoch 233, Loss G: 2.1400, Loss D: 2.0974
+epsilon is 0.9726998655968104, alpha is 32.0
+Epoch 234, Loss G: 2.1590, Loss D: 2.1833
+epsilon is 0.9748809466248409, alpha is 32.0
+Epoch 235, Loss G: 2.0967, Loss D: 2.0527
+epsilon is 0.9770620276528714, alpha is 32.0
+Epoch 236, Loss G: 2.1234, Loss D: 2.1003
+epsilon is 0.9792431086809019, alpha is 32.0
+Epoch 237, Loss G: 2.0588, Loss D: 2.0928
+epsilon is 0.9814241897089324, alpha is 32.0
+Epoch 238, Loss G: 2.0407, Loss D: 2.0275
+epsilon is 0.9836052707369629, alpha is 32.0
+Epoch 239, Loss G: 2.1151, Loss D: 2.1474
+epsilon is 0.9857863517649934, alpha is 32.0
+Epoch 240, Loss G: 2.1367, Loss D: 2.0502
+epsilon is 0.9879674327930239, alpha is 32.0
+Epoch 241, Loss G: 2.1060, Loss D: 2.0424
+epsilon is 0.9901485138210544, alpha is 32.0
+Epoch 242, Loss G: 2.0761, Loss D: 2.0807
+epsilon is 0.9923295948490849, alpha is 32.0
+Epoch 243, Loss G: 2.1059, Loss D: 2.0555
+epsilon is 0.9945106758771154, alpha is 32.0
+Epoch 244, Loss G: 2.0364, Loss D: 2.0517
+epsilon is 0.9966917569051459, alpha is 32.0
+Epoch 245, Loss G: 2.0224, Loss D: 2.0653
+epsilon is 0.9988382491713217, alpha is 31.0
+Epoch 246, Loss G: 2.0532, Loss D: 2.0424
+epsilon is 1.0009510255010836, alpha is 31.0
+Epoch 247, Loss G: 2.1165, Loss D: 2.1012
+epsilon is 1.0030638018308453, alpha is 31.0
+Epoch 248, Loss G: 2.1246, Loss D: 2.0920
+epsilon is 1.0051765781606075, alpha is 31.0
+Epoch 249, Loss G: 2.1538, Loss D: 2.1049
+epsilon is 1.0072893544903692, alpha is 31.0
+Epoch 250, Loss G: 2.0983, Loss D: 2.0889
+epsilon is 1.009402130820131, alpha is 31.0
+Epoch 251, Loss G: 2.0519, Loss D: 2.0738
+epsilon is 1.011514907149893, alpha is 31.0
+Epoch 252, Loss G: 2.0938, Loss D: 2.0838
+epsilon is 1.013627683479655, alpha is 31.0
+Epoch 253, Loss G: 2.0754, Loss D: 2.0180
+epsilon is 1.0157404598094169, alpha is 31.0
+Epoch 254, Loss G: 2.1027, Loss D: 2.1251
+epsilon is 1.0178532361391786, alpha is 31.0
+Epoch 255, Loss G: 2.1268, Loss D: 2.1026
+epsilon is 1.0199660124689407, alpha is 31.0
+Epoch 256, Loss G: 2.0883, Loss D: 2.0867
+epsilon is 1.0220787887987024, alpha is 31.0
+Epoch 257, Loss G: 2.0653, Loss D: 2.0901
+epsilon is 1.0241915651284643, alpha is 31.0
+Epoch 258, Loss G: 2.0502, Loss D: 2.0651
+epsilon is 1.0263043414582262, alpha is 31.0
+Epoch 259, Loss G: 2.0608, Loss D: 2.0578
+epsilon is 1.028417117787988, alpha is 31.0
+Epoch 260, Loss G: 2.0590, Loss D: 2.1095
+epsilon is 1.03052989411775, alpha is 31.0
+Epoch 261, Loss G: 2.0682, Loss D: 2.0424
+epsilon is 1.0326426704475118, alpha is 31.0
+Epoch 262, Loss G: 2.0639, Loss D: 2.0157
+epsilon is 1.0347462580064124, alpha is 30.0
+Epoch 263, Loss G: 2.0882, Loss D: 2.0755
+epsilon is 1.0367907390781506, alpha is 30.0
+Epoch 264, Loss G: 2.0794, Loss D: 2.0110
+epsilon is 1.0388352201498887, alpha is 30.0
+Epoch 265, Loss G: 2.0702, Loss D: 2.0316
+epsilon is 1.0408797012216269, alpha is 30.0
+Epoch 266, Loss G: 2.0795, Loss D: 2.0500
+epsilon is 1.0429241822933648, alpha is 30.0
+Epoch 267, Loss G: 2.0878, Loss D: 2.0208
+epsilon is 1.0449686633651027, alpha is 30.0
+Epoch 268, Loss G: 2.0389, Loss D: 2.0472
+epsilon is 1.047013144436841, alpha is 30.0
+Epoch 269, Loss G: 2.1443, Loss D: 2.0055
+epsilon is 1.049057625508579, alpha is 30.0
+Epoch 270, Loss G: 2.0881, Loss D: 2.0846
+epsilon is 1.051102106580317, alpha is 30.0
+Epoch 271, Loss G: 2.0252, Loss D: 2.0273
+epsilon is 1.053146587652055, alpha is 30.0
+Epoch 272, Loss G: 2.0596, Loss D: 2.0148
+epsilon is 1.055191068723793, alpha is 30.0
+Epoch 273, Loss G: 2.0936, Loss D: 2.0517
+epsilon is 1.0572355497955312, alpha is 30.0
+Epoch 274, Loss G: 1.9699, Loss D: 1.9928
+epsilon is 1.0592800308672694, alpha is 30.0
+Epoch 275, Loss G: 2.0495, Loss D: 2.0585
+epsilon is 1.0613245119390073, alpha is 30.0
+Epoch 276, Loss G: 2.1247, Loss D: 1.9675
+epsilon is 1.0633689930107453, alpha is 30.0
+Epoch 277, Loss G: 2.1023, Loss D: 2.0530
+epsilon is 1.0654134740824834, alpha is 30.0
+Epoch 278, Loss G: 2.0273, Loss D: 1.9863
+epsilon is 1.0674579551542216, alpha is 30.0
+Epoch 279, Loss G: 2.0656, Loss D: 2.0541
+epsilon is 1.0695024362259595, alpha is 30.0
+Epoch 280, Loss G: 2.0274, Loss D: 2.0855
+epsilon is 1.0715469172976975, alpha is 30.0
+Epoch 281, Loss G: 2.1357, Loss D: 2.0575
+epsilon is 1.0735913983694356, alpha is 30.0
+Epoch 282, Loss G: 2.0923, Loss D: 2.1283
+epsilon is 1.0755770743978377, alpha is 29.0
+Epoch 283, Loss G: 2.0390, Loss D: 2.0589
+epsilon is 1.0775532696491574, alpha is 29.0
+Epoch 284, Loss G: 2.0213, Loss D: 2.0611
+epsilon is 1.0795294649004774, alpha is 29.0
+Epoch 285, Loss G: 2.0684, Loss D: 2.0904
+epsilon is 1.081505660151797, alpha is 29.0
+Epoch 286, Loss G: 2.0700, Loss D: 2.0616
+epsilon is 1.083481855403117, alpha is 29.0
+Epoch 287, Loss G: 2.0863, Loss D: 1.9951
+epsilon is 1.0854580506544365, alpha is 29.0
+Epoch 288, Loss G: 2.0262, Loss D: 2.0528
+epsilon is 1.0874342459057564, alpha is 29.0
+Epoch 289, Loss G: 2.1010, Loss D: 2.1209
+epsilon is 1.089410441157076, alpha is 29.0
+Epoch 290, Loss G: 2.0652, Loss D: 2.0806
+epsilon is 1.091386636408396, alpha is 29.0
+Epoch 291, Loss G: 2.1298, Loss D: 2.0558
+epsilon is 1.0933628316597157, alpha is 29.0
+Epoch 292, Loss G: 2.1051, Loss D: 2.1231
+epsilon is 1.0953390269110355, alpha is 29.0
+Epoch 293, Loss G: 2.0869, Loss D: 2.0265
+epsilon is 1.0973152221623552, alpha is 29.0
+Epoch 294, Loss G: 2.0649, Loss D: 2.1246
+epsilon is 1.099291417413675, alpha is 29.0
+Epoch 295, Loss G: 2.0746, Loss D: 2.0726
+epsilon is 1.1012676126649947, alpha is 29.0
+Epoch 296, Loss G: 2.0304, Loss D: 1.9911
+epsilon is 1.1032438079163145, alpha is 29.0
+Epoch 297, Loss G: 2.1249, Loss D: 2.1240
+epsilon is 1.1052200031676345, alpha is 29.0
+Epoch 298, Loss G: 2.0811, Loss D: 2.0162
+epsilon is 1.107196198418954, alpha is 29.0
+Epoch 299, Loss G: 2.0769, Loss D: 2.0248
+epsilon is 1.109172393670274, alpha is 29.0
+Epoch 300, Loss G: 2.0747, Loss D: 2.0375
+epsilon is 1.1111485889215935, alpha is 29.0
+(300000, 12)
+
+#QUAIL PATE-CTGAN Run local v3
+using loss cross_entropy and regularization None
+eps: 0.189173 	 G: 44.488804 	 D: 18.599117
+(300000, 12)
